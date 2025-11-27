@@ -1,0 +1,19 @@
+name = "yukia"
+main = "_worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat_v2"]
+
+minify = true
+workers_dev = true
+routes = [
+  { pattern = "cahkecleng.my.id", custom_domain = true },
+  { pattern = "quiz.int.vidio.com.cahkecleng.my.id", custom_domain = true },
+  { pattern = "support.zoom.us.cahkecleng.my.id", custom_domain = true },
+  
+]
+
+[unsafe.metadata.observability]
+enabled = true
+
+[observability.logs]
+enabled = true
