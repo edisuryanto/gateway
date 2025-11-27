@@ -3,8 +3,8 @@ import { connect } from "cloudflare:sockets";
 // import { Buffer } from "node:buffer";
 
 // Variables
-const rootDomain = "my.id"; // Ganti dengan domain utama kalian
-const serviceName = "cahkecleng"; // Ganti dengan nama workers kalian
+const rootDomain = "pages.dev"; // Ganti dengan domain utama kalian
+const serviceName = "gateway-eo9"; // Ganti dengan nama workers kalian
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
@@ -26,7 +26,7 @@ const KV_PROXY_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/
 const PROXY_BANK_URL = "https://raw.githubusercontent.com/edisuryanto/ip_proxy/refs/heads/proxyip/rawProxyList.txt";
 const DNS_SERVER_ADDRESS = "8.8.8.8";
 const DNS_SERVER_PORT = 53;
-const PROXY_HEALTH_CHECK_API = "https://id1.foolvpn.me/api/v1/check";
+const PROXY_HEALTH_CHECK_API = "https://api-harilibur.pages.dev/api/v1/check";
 const CONVERTER_URL = "https://api.foolvpn.me/convert";
 const DONATE_LINK = "";
 const BAD_WORDS_LIST =
